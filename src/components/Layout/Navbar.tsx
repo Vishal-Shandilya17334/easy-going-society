@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="text-2xl sm:text-3xl font-serif text-gray-800 hover:text-gray-600">
-          John Doe Smith
+          Prof. (Dr.) Bhagwan Singh
         </Link>
         <div className="hidden md:flex space-x-6 items-center">
           <Link to="/" className="text-blue-600 hover:text-blue-800">Home</Link>

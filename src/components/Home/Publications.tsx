@@ -8,22 +8,30 @@ const Publications = () => {
     {
       id: 1,
       cover: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Income Inequality and Human Wellbeing: An Empirical Analysis Using Atkinson Measure of Inequality (2024)",
+      title: "Taking flight with food: investigating the determinants of user acceptance toward drone-based food delivery services in India",
+      journal: "British Food Journal",
+      year: "2024"
     },
     {
       id: 2,
       cover: "https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "From Inception to Alternative: A Case of GDP (2024)",
+      title: "Drone Usage opportunities for Entrepreneur Contributing towards Aatmanirbhar Bharat",
+      journal: "SMS Journal of Entrepreneurship & Innovations",
+      year: "2023"
     },
     {
       id: 3,
       cover: "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Economic Growth and Human Well-being in India: Evidence through adjusted GDP measure (2024)",
+      title: "Metaverse the Next Renaissance of Financial Inclusion: Scientific Mapping & Future Research Directions",
+      journal: "Journal of Content, Community & Communication",
+      year: "2023"
     },
     {
       id: 4,
       cover: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Money Makes Us Happy or It Doesn't (2023)",
+      title: "A study of Prospects and Problems of Online Education in Bihar",
+      journal: "Global Journal of Enterprise Information System",
+      year: "2023"
     },
   ];
 
@@ -42,7 +50,8 @@ const Publications = () => {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-lg font-medium mb-4">{pub.title}</h3>
+                <h3 className="text-lg font-medium mb-2">{pub.title}</h3>
+                <p className="text-sm text-gray-600 mb-4">{pub.journal}, {pub.year}</p>
                 <Button variant="outline" className="w-full">
                   Read More →
                 </Button>

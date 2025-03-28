@@ -11,15 +11,14 @@ const Hero = () => {
           <div className="order-2 md:order-1">
             <h1 className="text-3xl md:text-4xl font-serif mb-6">About me</h1>
             <p className="text-lg text-gray-700 mb-6">
-              One of my former colleagues once told me that I am a person of many parts. Today when I think over it, a little
-              more deeply, I tend to see myself as — a learner by nature, a teacher by profession, a student by attitude, a poet by
-              heart, a philosopher by temperament, and a wanderer by hobby. These parts are manifested through my
-              experience in Teaching, Research, Extension, and Administration.
+              Prof. (Dr.) Bhagwan Singh is Professor of Management at Department of Business Administration (DBA), 
+              School of Management Sciences (SMS), Central University of Jharkhand (CUJ), Ranchi - 835205, Bharat. 
+              He is the Ex-Dean of SMS and Ex-Head of DBA at CUJ.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              The teaching career of 20 years enriched me by providing opportunity to work in different types of educational
+              The teaching career of 20+ years enriched him by providing opportunity to work in different types of educational
               institutions situated in different geographies; to meet some of the most wonderful people on earth and to make
-              me learn those nuances of life that would not have been otherwise possible.
+              him learn those nuances of life that would not have been otherwise possible.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild>
@@ -35,7 +34,7 @@ const Hero = () => {
               <AspectRatio ratio={1/1}>
                 <img 
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Profile"
+                  alt="Prof. Dr. Bhagwan Singh"
                   className="object-cover w-full h-full"
                 />
               </AspectRatio>

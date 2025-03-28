@@ -4,43 +4,75 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const About = () => {
+  const courses = [
+    "Strategic Management", "Marketing Management", "Basics of Computers & MIS",
+    "Business Environment", "Consumer Behaviour", "Digital Social Media & Marketing",
+    "Web Based Advertising", "Mobile Based Advertising", "Internet Based Marketing",
+    "Retail Management", "Green Marketing", "Advertising & Brand Management",
+    "Integrated Marketing Communication", "Marketing Research", "Strategic Marketing",
+    "E-Customer Relationship Management (CRM)", "Entrepreneurship", "Creativity & Brand Awareness",
+    "Research & Publication Ethics", "Academic writing & Communication Skills", 
+    "Advance topics on Strategic Marketing & Management"
+  ];
+
+  const awards = [
+    "Developed CRISP Model for presentation of RTP (Research/Thesis/ Project) which is appreciated / adopted by National Repute Universities",
+    "Received Best Teacher Award from Rotary Club Dharmshala, H. P. (2012)",
+    "Received Best Teacher award in 2011, from the hands of Honbl'e Vice Chancellor, Mahatma Gandhi Kashi Vidyapeth State University, Varanasi organized by JDIMT, Varanasi",
+    "First Best Paper Award in Feb 2010, among almost 218 papers screened from all over the world in International Conference organized by Gardi Vidyapith University in Rajkot, Gujarat",
+    "Chaired several International & National FDP / Seminars / Workshops/ Conferences as a regular activity in top notch reputed organizations"
+  ];
+
   return (
     <Layout>
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-serif mb-8 text-center">About Me</h1>
+          <h1 className="text-3xl md:text-4xl font-serif mb-8 text-center">About Prof. (Dr.) Bhagwan Singh</h1>
           
           <div className="flex flex-col md:flex-row gap-8 mb-12">
             <div className="md:w-1/3">
               <img 
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="Profile"
+                alt="Prof. Dr. Bhagwan Singh"
                 className="w-full h-auto rounded-lg shadow-md"
               />
+              <div className="mt-4 text-center">
+                <p className="font-medium">Professor of Management</p>
+                <p className="text-sm text-gray-600">Ex-Dean, School of Management Sciences (SMS)</p>
+                <p className="text-sm text-gray-600">Ex-Head, Department of Business Administration (DBA)</p>
+                <p className="text-sm text-gray-600">Central University of Jharkhand (CUJ), Ranchi</p>
+                <p className="text-sm mt-2">
+                  <a href="mailto:bhagwan.singh@cuj.ac.in" className="text-blue-600 hover:underline">bhagwan.singh@cuj.ac.in</a>
+                </p>
+                <p className="text-sm">
+                  <a href="tel:+919816481037" className="text-blue-600 hover:underline">+91-9816481037</a>
+                </p>
+              </div>
             </div>
             <div className="md:w-2/3">
               <div className="prose prose-lg max-w-none">
                 <p>
-                  One of my former colleagues once told me that I am a person of many parts. Today when I think over it, a little
-                  more deeply, I tend to see myself as — a learner by nature, a teacher by profession, a student by attitude, a poet by
-                  heart, a philosopher by temperament, and a wanderer by hobby. These parts are manifested through my
-                  experience in Teaching, Research, Extension, and Administration.
+                  Prof. (Dr.) Bhagwan Singh is Professor of Management at Department of Business Administration (DBA), 
+                  School of Management Sciences (SMS), Central University of Jharkhand (CUJ), Ranchi - 835205, Bharat. 
+                  He is the Ex-Dean of SMS and Ex-Head of DBA at CUJ. He joined as Professor in Department of Business 
+                  Administration (DBA), School of Management Sciences (SMS), Central University of Jharkhand (CUJ), 
+                  on 12th March 2020.
                 </p>
                 <p>
-                  The teaching career of 20 years enriched me by providing opportunity to work in different types of educational
-                  institutions situated in different geographies; to meet some of the most wonderful people on earth and to make
-                  me learn those nuances of life that would not have been otherwise possible.
+                  He also served as Finance Officer Incharge (I/c) in Central University of Jharkhand (CUJ), for 6 months 
+                  during COVID Period. He gave his contribution as Chief Placement Officer (CPO) of Central University of 
+                  Jharkhand (CUJ). He is also Academic Council (AC) & University Court (UC) member at CUJ.
                 </p>
                 <p>
-                  The institutions that I have worked for have bestowed their trust in me by allowing me to play the role of a
-                  catalyst for loving students. Their love and affection are my most precious gifts. The results of some of my
-                  interventions in policy front both at the organizational as well as at the national/global level keep enthusing a
-                  sense of hope and optimism.
+                  Prior to Central University of Jharkhand (CUJ), he served Central University of Himachal Pradesh (CUHP), 
+                  where he was the Founder Dean, School of Commerce & Management Studies (SCMS), Central University of 
+                  Himachal Pradesh (CUHP). Under this School two Departments: Himachal Pradesh Kendriya Vishwavidyalaya 
+                  Business School (HPKVBS) and Department of Commerce (DoC) and One Centre "Centre for Entrepreneurship" was present.
                 </p>
                 <p>
-                  Human Well-Being and Happiness are the core of my academic adventure which keeps me pushing to raise
-                  concerns towards making organizations and nations happy. Education is the primary domain that concerns me
-                  most for building happy societies all around the globe.
+                  His research interest and work areas are Marketing, advertising and Information Technology. His core 
+                  thrust areas are Web-based Advertising (WBA), Green Marketing, Entrepreneurship; Mobile based Marketing (MBM), 
+                  Internet Based Marketing (IBM), Drone delivery services, AI, Social Media Influencer and the like.
                 </p>
               </div>
               <div className="mt-6">
@@ -57,16 +89,22 @@ const About = () => {
                 <h2 className="text-xl font-semibold mb-4">Education</h2>
                 <ul className="space-y-4">
                   <li>
-                    <p className="font-medium">Ph.D. in Education</p>
-                    <p className="text-gray-600">Harvard University, 2005</p>
+                    <p className="font-medium">Ph.D. in Commerce (2011)</p>
+                    <p className="text-gray-600">VBS Purvanchal University, Jaunpur, Uttar Pradesh</p>
+                    <p className="text-sm text-gray-500">Topic: "A Study of the Prospects and Problems of Web Based Advertising in Eastern U.P."</p>
                   </li>
                   <li>
-                    <p className="font-medium">M.A. in Educational Psychology</p>
-                    <p className="text-gray-600">Stanford University, 2000</p>
+                    <p className="font-medium">MBA in Marketing (1998-2000)</p>
+                    <p className="text-gray-600">CSJM Kanpur University, Kanpur, U.P.</p>
                   </li>
                   <li>
-                    <p className="font-medium">B.A. in Psychology</p>
-                    <p className="text-gray-600">University of California, 1998</p>
+                    <p className="font-medium">B.Com (1993-1996)</p>
+                    <p className="text-gray-600">Allahabad University, Allahabad, U.P.</p>
+                  </li>
+                  <li>
+                    <p className="font-medium">Additional IT Qualifications</p>
+                    <p className="text-gray-600">Honors in System Management [HSM] from NIIT - CEC (1994-1996)</p>
+                    <p className="text-gray-600">PGDCA from U.P. Autonomous College, Varanasi (2011)</p>
                   </li>
                 </ul>
               </CardContent>
@@ -78,23 +116,96 @@ const About = () => {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Human Well-Being and Education Policy</span>
+                    <span>Web-Based Advertising (WBA) & Digital Marketing</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Educational Psychology and Learning Methods</span>
+                    <span>Green Marketing & Sustainable Business Practices</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Happiness Metrics in Educational Institutions</span>
+                    <span>Mobile-Based Marketing (MBM) & Emerging Technologies</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Cultural Perspectives in Education</span>
+                    <span>Drone Delivery Services & Applications</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Policy Making and Implementation Strategies</span>
+                    <span>Strategic Management & Marketing</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Entrepreneurship & Innovation</span>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12">
+            <Card>
+              <CardContent className="p-6">
+                <h2 className="text-xl font-semibold mb-4">Courses Taught</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+                  {courses.map((course, index) => (
+                    <div key={index} className="bg-gray-50 p-2 rounded text-sm">
+                      {course}
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12">
+            <Card>
+              <CardContent className="p-6">
+                <h2 className="text-xl font-semibold mb-4">Awards & Recognition</h2>
+                <ul className="space-y-3">
+                  {awards.map((award, index) => (
+                    <li key={index} className="flex items-start">
+                      <span className="mr-2 text-blue-600">★</span>
+                      <span>{award}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-12">
+            <Card>
+              <CardContent className="p-6">
+                <h2 className="text-xl font-semibold mb-4">Administrative Responsibilities</h2>
+                <ul className="space-y-2">
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Ex-Dean, School of Management Sciences (SMS)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Ex-Head, Department of Business Administration (DBA)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>University Court (UC) Member, CUJ</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Academic Council (AC) Member, CUJ</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Former Finance Officer (In-charge) of Central University of Jharkhand (CUJ)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>Former Chief Placement Officer (CPO)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-2">•</span>
+                    <span>State Student Coordinator (SSC) of Jharkhand, CSI (2020-2021)</span>
                   </li>
                 </ul>
               </CardContent>

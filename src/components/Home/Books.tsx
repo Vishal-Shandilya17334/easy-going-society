@@ -7,21 +7,21 @@ const Books = () => {
     {
       id: 1,
       cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "Human Well-Being and Policy in Modern Society",
-      description: "This book explores human well-being from a policy dimension. It discusses the cultural history and diversity of the region in order to highlight major priority areas of public policy to improve people's quality of life."
+      title: "Web Based Advertising: A Tool of Digital & Internet Based Marketing",
+      description: "This book explores web-based advertising as a tool for digital and internet-based marketing, published by Anamika Publisher, New Delhi in 2017 (1st Edition)."
     },
     {
       id: 2,
       cover: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      title: "In Defence of Inclusion of Happiness in Public Policy",
-      description: "The focus of planning and development has been widely influenced by the indicators reflecting economic progress. This has fetched good results as the economy is estimated to be among the largest in the world."
+      title: "Internet Based Marketing: Trends, Issues & Challenges for Digital Marketing & Web Based Advertising",
+      description: "This book discusses trends, issues and challenges in digital marketing and web-based advertising, published by Anamika Publisher, New Delhi in 2015 (1st Edition)."
     }
   ];
 
   return (
     <section className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-serif text-center mb-12">Latest Books</h2>
+        <h2 className="text-3xl font-serif text-center mb-12">Published Books</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {books.map((book) => (
             <div key={book.id} className="flex flex-col md:flex-row gap-8">
