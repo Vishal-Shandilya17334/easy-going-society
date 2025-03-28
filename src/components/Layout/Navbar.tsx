@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6 items-center">
           <Link to="/" className="text-blue-600 hover:text-blue-800">Home</Link>
           <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
-          <Link to="/mentions" className="text-gray-700 hover:text-gray-900">Mentions</Link>
+          <Link to="/education" className="text-gray-700 hover:text-gray-900">Education</Link>
           <Link to="/teaching" className="text-gray-700 hover:text-gray-900">Teaching</Link>
           <div className="relative group">
             <Link to="/speaking" className="text-gray-700 hover:text-gray-900 flex items-center">
