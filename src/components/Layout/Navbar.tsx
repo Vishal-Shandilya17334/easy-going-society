@@ -14,11 +14,7 @@ const Navbar = () => {
           <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
           <Link to="/education" className="text-gray-700 hover:text-gray-900">Education</Link>
           <Link to="/courses" className="text-gray-700 hover:text-gray-900">Courses</Link>
-          <div className="relative group">
-            <Link to="/speaking" className="text-gray-700 hover:text-gray-900 flex items-center">
-              Speaking <span className="ml-1">▼</span>
-            </Link>
-          </div>
+          <Link to="/awards" className="text-gray-700 hover:text-gray-900">Awards</Link>
           <div className="relative group">
             <Link to="/writing" className="text-gray-700 hover:text-gray-900 flex items-center">
               Writing <span className="ml-1">▼</span>
