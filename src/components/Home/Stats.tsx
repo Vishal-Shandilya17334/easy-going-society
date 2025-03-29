@@ -6,12 +6,12 @@ import {
 
 const Stats = () => {
   const stats = [
-    { number: "54+", label: "Publications" },
-    { number: "60+", label: "Invited Lectures" },
-    { number: "65+", label: "Conferences" },
-    { number: "18+", label: "Book Chapters" },
-    { number: "11", label: "PhD Students" },
-    { number: "20+", label: "Teaching Experience" },
+    { number: "28+", label: "Journal Publications" },
+    { number: "12+", label: "Book Chapters" },
+    { number: "2", label: "Published Books" },
+    { number: "10+", label: "Administrative Roles" },
+    { number: "21+", label: "Courses Taught" },
+    { number: "10+", label: "Awards & Recognitions" },
   ];
 
   return (

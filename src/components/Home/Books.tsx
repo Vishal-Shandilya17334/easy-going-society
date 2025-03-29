@@ -1,6 +1,7 @@
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Books = () => {
   const books = [
@@ -39,9 +40,11 @@ const Books = () => {
                   <h3 className="text-xl md:text-2xl font-serif mb-4">{book.title}</h3>
                   <p className="text-gray-300 mb-6">{book.description}</p>
                 </div>
-                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black w-fit">
-                  ORDER NOW →
-                </Button>
+                <Link to="/books">
+                  <Button className="bg-yellow-400 hover:bg-yellow-500 text-black w-fit">
+                    VIEW MORE →
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

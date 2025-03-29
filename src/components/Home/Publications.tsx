@@ -50,11 +50,13 @@ const Publications = () => {
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-lg font-medium mb-2">{pub.title}</h3>
+                <h3 className="text-lg font-medium mb-2 line-clamp-3">{pub.title}</h3>
                 <p className="text-sm text-gray-600 mb-4">{pub.journal}, {pub.year}</p>
-                <Button variant="outline" className="w-full">
-                  Read More →
-                </Button>
+                <Link to="/journal-publications">
+                  <Button variant="outline" className="w-full">
+                    View All Publications →
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
